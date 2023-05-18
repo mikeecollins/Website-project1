@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Train to be a cook</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+  <link rel = "stylesheet" href= "CSS/mycss.css">
+</head>
+
+<nav>
+  <ul>
+    <li><a class= "active item" href ="home.html">Home</a></li>
+    <li><a class= "item" href ="about.html">About</a></li>
+  </ul>
+</nav>
+
+<main class="thirteen wide column">
+<h2>Fill out your form</h2>
+<p>IIf you are w illing to part take in a cooking course with us</p>
+<p>For any other inqueries please contact 01793
+641207.For anything else, please <a href="mailto:bob@bubbleunder.com">drop us a line by email</a>.</p>
+<form action="process.html" method="get" id = "contact" class="ui form" role="form">
+
+<div class = "inline field">
+    <label for="contactname" class="two wide field">Name:</label>
+    <input type="text" name="contactname" id="contactname" required pattern = "[A-Z][a-z]+( [A-Z][a-z]+)?" autofocus title="First name must start with a capital letter. (Surname is optional)" class="eight wide field">
+</div>
+
+<div class = "inline field">
+<label for = "phone" class="two wide field">Telephone Number:</label>
+<input type="text" name="phone" id="phone" required pattern = "^((\d{3})|\d{3})-?\d{6,9}$" autofocus title="Must be whole numbers" class="eight wide field">
+</div>
+
+<div class = "inline field">
+<label for = "email" class="two wide field">Email:</label>
+<input type="text" name="email" id="email"  required pattern = "^[_a-z0-9-]+(.[_a-z0-9-]+)@[a-z0-9-]+(.[a-z0-9-]+)(.[a-z]{2,4})$" autofocus title="Please enter a valid email address" class="eight wide field">
+</div>
+
+<div class = "inline field">
+<label for = "event" class="two wide field">second in kin:</label>
+<input type="text" name="event" id="event"  required pattern = "[a-zA-Z0-9]{3,}" autofocus title="Enter a suitable name" class="eight wide field">
+</div>
+
+<div class = "inline field">
+<label for = "happening" class="two wide field">Date of birth?:</label>
+<input type="date" name="happening" id="happening"  required pattern = "\d{8,8}" autofocus title="Please enter a valid date" class="eight wide field">
+</div>
+[10:03]
+<div class = "inline field">
+<label for = "region" class="two wide field">Which region are you based in?:</label>
+<input required type="text" list="browsers" name="region" id="region" class="eight wide field">
+<datalist id="browsers">
+  <option value="South West">
+  <option value="South East">
+  <option value="Midlands">
+  <option value="Central">
+  <option value="London">
+  <option value="East">
+  <option value="North">
+  <option value="Scotland">
+  <option value="Northern Ireland">
+  <option value="Overseas">
+</datalist>
+</div>
+
+<p>Please provide any other details you think will be useful to us in the text area below (it may save us calling or emailing you, and help avoid delays).</p>
+
+<label for = "textarea" class="two wide field">More details (as much as you think we'll need):</label>
+<textarea id="comments" name="comments" rows = "5" cols="40" >
+</textarea>
+
+<p>If we need to call you back for any more info, what would be the best time to call you on the number supplied?</p>
+
+
+<br><input style="clear:left; float:left" type="radio" name="format" id = "radio" radio/> <label for = "radio" style="float:left"> In the morning</label>
+<br><input style="clear:left; float:left" type="radio" name="format" id = "radio" /> <label for = "radio" style="float:left"> In the afternoon</label>
+<br><input style="clear:left; float:left" type="radio" name="format" id = "radio" /><label for = "radio" style="float:left"> In the evening</label>
+<br><input style="clear:left; float:left" type="radio" name="format" id = "radio" /><label for = "radio" style="float:left"> No perfered time </label>
+[10:03]
+<br>
+<p>would you like to use your infomation for training purpose?</p>
+
+<div class="ui checkbox">
+     <input type="checkbox" id = "checkbox"  name ="checkbox">
+     <label for = "checkbox">Yes, i do not mind using my information for training purposes</label>
+</div>
+
+<br>
+<div class="submit">
+
+<input type="submit" type="submit">
+<input type="reset" value = "Start Over">
+</div>
+</form>
+</body>
+
+</html>
+
+</main>

@@ -1,0 +1,270 @@
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  /* background-color: #aebbdb; */
+}
+
+body {
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Times New Roman';
+  background-image: url(../images/foodcolours.jpg);
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#restaurant {
+  
+  height: 100%;
+  /* Create the parallax scrolling effect */
+
+  background-size: cover;
+  height:1000px;
+}
+/* typography */
+
+h1, h2, h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  color: #2a2a2a;
+}
+
+p,li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2a2a2a;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #000000 !important;
+}
+
+a:active {
+  color: rgb(179, 132, 45);
+}
+
+p a:link {
+  text-decoration: underline;
+  color: navy;
+}
+
+p a:visited {
+  text-decoration: underline;
+  color:purple;
+}
+
+p a:hover {
+  text-decoration:none;
+  background-color:#256290;
+  color:white;
+}
+
+img { 
+  float:left;
+  margin-right:1em;
+}
+
+p.news {
+  font-style:italic;
+}
+
+
+h1 {
+  font-family:  Helvetica, sans-serif;
+  font-size: 4.4em;
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+figure {
+	padding: 5%;
+  margin-left: 22em;
+  margin-top: 1em
+}
+
+figcaption {
+  font-size: 95%;
+  font-style: italic;
+  margin-top: 0;
+  margin-left: 4.5em;
+  width: 70%;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.dropbtn {
+  background-color: rgb(179, 132, 45);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgb(179, 132, 45);}
+
+.ui.container {
+  background-color: #fdf8f2;
+  margin-top:3%;
+  padding:1.5em;
+}
+
+#content {
+  margin-top: .2em;
+  }
+  
+
+/* Layout for Header */
+
+nav, article, aside {
+  padding: 1%;
+}
+
+nav {
+  background-color: rgb(179, 132, 45);
+  margin-bottom: 10px;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+nav a {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+
+/* layout for Main body */
+
+main {
+  display: flex;
+}
+
+article {
+  flex: 4;
+}
+
+aside { 
+  flex: 1;
+  margin-left: 10px;
+  background-color: rgb(179, 132, 45);
+}
+
+aside li {
+  padding-bottom: 10px;
+}
+
+footer {
+  margin-top: 10px;
+  text-align:center;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  height: 30px;
+}
+
+.fa-yahoo {
+  background: #75308a;
+  color: white;
+}
+
+.fa-phone {
+  background: #0c090a;
+  color: white;
+}
+.sidebar { font-size: 20px !important ;}
+
+h4{
+  font-size: 25px;
+  text-align: left;
+}
+
+
+h5{
+  font-size: 25px;
+  text-align: right;
+}
+
+.bar{
+  text-align: right;
+}
+
+h6{
+  font-family: 'Times New Roman';
+  font-style: italic;
+  font-weight: 200;
+  color: #2a2a2a;
+  text-align: center;
+  font-size: 30px;
+  
+}
